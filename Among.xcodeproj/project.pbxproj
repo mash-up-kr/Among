@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		2F0B49458A606894C957C1BE /* Pods_Among.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2732B340EACE941E63DEB7 /* Pods_Among.framework */; };
 		8013888C1E1FF74600AE6366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013888B1E1FF74600AE6366 /* AppDelegate.swift */; };
-		8013888E1E1FF74600AE6366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013888D1E1FF74600AE6366 /* ViewController.swift */; };
 		801388911E1FF74600AE6366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8013888F1E1FF74600AE6366 /* Main.storyboard */; };
 		801388931E1FF74600AE6366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801388921E1FF74600AE6366 /* Assets.xcassets */; };
 		801388961E1FF74600AE6366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388941E1FF74600AE6366 /* LaunchScreen.storyboard */; };
+		8013889E1E209DD300AE6366 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013889D1E209DD300AE6366 /* GroupViewController.swift */; };
+		801388A41E20A8EC00AE6366 /* BucketListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */; };
+		801388A81E20ACD800AE6366 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388A71E20ACD800AE6366 /* BucketListViewController.swift */; };
+		801388AB1E20B2BE00AE6366 /* GroupCreateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */; };
+		801388AD1E20B50F00AE6366 /* GroupCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */; };
+		801388AF1E20BC3600AE6366 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AE1E20BC3600AE6366 /* PagerViewController.swift */; };
+		801388B11E20BCF100AE6366 /* PagerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388B01E20BCF100AE6366 /* PagerViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +27,17 @@
 		5D585BCD96DF7C6F550606C4 /* Pods-Among.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Among.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Among/Pods-Among.debug.xcconfig"; sourceTree = "<group>"; };
 		801388881E1FF74600AE6366 /* Among.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Among.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8013888B1E1FF74600AE6366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8013888D1E1FF74600AE6366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		801388901E1FF74600AE6366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		801388921E1FF74600AE6366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801388951E1FF74600AE6366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		801388971E1FF74600AE6366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8013889D1E209DD300AE6366 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BucketListViewController.storyboard; sourceTree = "<group>"; };
+		801388A71E20ACD800AE6366 /* BucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
+		801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupCreateViewController.storyboard; sourceTree = "<group>"; };
+		801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCreateViewController.swift; sourceTree = "<group>"; };
+		801388AE1E20BC3600AE6366 /* PagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
+		801388B01E20BCF100AE6366 /* PagerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PagerViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +90,36 @@
 		8013888A1E1FF74600AE6366 /* Among */ = {
 			isa = PBXGroup;
 			children = (
-				8013888B1E1FF74600AE6366 /* AppDelegate.swift */,
-				8013888D1E1FF74600AE6366 /* ViewController.swift */,
-				8013888F1E1FF74600AE6366 /* Main.storyboard */,
-				801388921E1FF74600AE6366 /* Assets.xcassets */,
-				801388941E1FF74600AE6366 /* LaunchScreen.storyboard */,
-				801388971E1FF74600AE6366 /* Info.plist */,
+				801388A01E209E3700AE6366 /* Sources */,
+				8013889F1E209E2600AE6366 /* UI */,
 			);
 			path = Among;
+			sourceTree = "<group>";
+		};
+		8013889F1E209E2600AE6366 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8013888F1E1FF74600AE6366 /* Main.storyboard */,
+				801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */,
+				801388B01E20BCF100AE6366 /* PagerViewController.storyboard */,
+				801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */,
+				801388941E1FF74600AE6366 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		801388A01E209E3700AE6366 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8013888B1E1FF74600AE6366 /* AppDelegate.swift */,
+				8013889D1E209DD300AE6366 /* GroupViewController.swift */,
+				801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */,
+				801388AE1E20BC3600AE6366 /* PagerViewController.swift */,
+				801388A71E20ACD800AE6366 /* BucketListViewController.swift */,
+				801388921E1FF74600AE6366 /* Assets.xcassets */,
+				801388971E1FF74600AE6366 /* Info.plist */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +157,6 @@
 				TargetAttributes = {
 					801388871E1FF74600AE6366 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = U95678U43B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,8 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				801388961E1FF74600AE6366 /* LaunchScreen.storyboard in Resources */,
+				801388B11E20BCF100AE6366 /* PagerViewController.storyboard in Resources */,
 				801388931E1FF74600AE6366 /* Assets.xcassets in Resources */,
 				801388911E1FF74600AE6366 /* Main.storyboard in Resources */,
+				801388AB1E20B2BE00AE6366 /* GroupCreateViewController.storyboard in Resources */,
+				801388A41E20A8EC00AE6366 /* BucketListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +238,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -212,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8013888E1E1FF74600AE6366 /* ViewController.swift in Sources */,
+				8013889E1E209DD300AE6366 /* GroupViewController.swift in Sources */,
+				801388A81E20ACD800AE6366 /* BucketListViewController.swift in Sources */,
+				801388AD1E20B50F00AE6366 /* GroupCreateViewController.swift in Sources */,
 				8013888C1E1FF74600AE6366 /* AppDelegate.swift in Sources */,
+				801388AF1E20BC3600AE6366 /* PagerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +376,7 @@
 			baseConfigurationReference = 5D585BCD96DF7C6F550606C4 /* Pods-Among.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U95678U43B;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Among/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Among;
@@ -351,7 +390,7 @@
 			baseConfigurationReference = 4452BA3DB11B03C2A686C28D /* Pods-Among.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U95678U43B;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Among/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Among;
@@ -379,6 +418,7 @@
 				8013889C1E1FF74600AE6366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
