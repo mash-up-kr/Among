@@ -10,4 +10,9 @@ import UIKit
 
 class GroupCreateViewController: UITableViewController {
     
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBAction func doneButton(_ sender: AnyObject) {
+        
+    }
+    
 }

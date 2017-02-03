@@ -6,5 +6,6 @@ target 'Among' do
   use_frameworks!
   
   pod 'XLPagerTabStrip', '~> 6.0'
+  pod ‘RealmSwift’
 
 end

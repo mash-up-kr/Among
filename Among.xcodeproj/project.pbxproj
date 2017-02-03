@@ -19,6 +19,11 @@
 		801388AD1E20B50F00AE6366 /* GroupCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */; };
 		801388AF1E20BC3600AE6366 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AE1E20BC3600AE6366 /* PagerViewController.swift */; };
 		801388B11E20BCF100AE6366 /* PagerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388B01E20BCF100AE6366 /* PagerViewController.storyboard */; };
+		C97EBF9C1E446397000DE17D /* BucketDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */; };
+		C97EBF9E1E446CFE000DE17D /* MakeBucketViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */; };
+		C97EBFA01E446D0E000DE17D /* MakeBucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */; };
+		C97EBFA31E4471C4000DE17D /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97EBFA21E4471C4000DE17D /* Group.swift */; };
+		C97EBFD11E447AE2000DE17D /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97EBFD01E447AE2000DE17D /* GroupTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCreateViewController.swift; sourceTree = "<group>"; };
 		801388AE1E20BC3600AE6366 /* PagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
 		801388B01E20BCF100AE6366 /* PagerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PagerViewController.storyboard; sourceTree = "<group>"; };
+		C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BucketDetailViewController.storyboard; sourceTree = "<group>"; };
+		C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MakeBucketViewController.storyboard; sourceTree = "<group>"; };
+		C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeBucketViewController.swift; sourceTree = "<group>"; };
+		C97EBFA21E4471C4000DE17D /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		C97EBFD01E447AE2000DE17D /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,7 @@
 		8013888A1E1FF74600AE6366 /* Among */ = {
 			isa = PBXGroup;
 			children = (
+				C97EBFA11E44715B000DE17D /* Model */,
 				801388A01E209E3700AE6366 /* Sources */,
 				8013889F1E209E2600AE6366 /* UI */,
 			);
@@ -104,6 +115,8 @@
 				801388B01E20BCF100AE6366 /* PagerViewController.storyboard */,
 				801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */,
 				801388941E1FF74600AE6366 /* LaunchScreen.storyboard */,
+				C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */,
+				C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -118,8 +131,18 @@
 				801388A71E20ACD800AE6366 /* BucketListViewController.swift */,
 				801388921E1FF74600AE6366 /* Assets.xcassets */,
 				801388971E1FF74600AE6366 /* Info.plist */,
+				C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */,
+				C97EBFD01E447AE2000DE17D /* GroupTableViewCell.swift */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		C97EBFA11E44715B000DE17D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C97EBFA21E4471C4000DE17D /* Group.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +180,7 @@
 				TargetAttributes = {
 					801388871E1FF74600AE6366 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QWRWRCD882;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -189,7 +213,9 @@
 				801388931E1FF74600AE6366 /* Assets.xcassets in Resources */,
 				801388911E1FF74600AE6366 /* Main.storyboard in Resources */,
 				801388AB1E20B2BE00AE6366 /* GroupCreateViewController.storyboard in Resources */,
+				C97EBF9E1E446CFE000DE17D /* MakeBucketViewController.storyboard in Resources */,
 				801388A41E20A8EC00AE6366 /* BucketListViewController.storyboard in Resources */,
+				C97EBF9C1E446397000DE17D /* BucketDetailViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97EBFA31E4471C4000DE17D /* Group.swift in Sources */,
+				C97EBFA01E446D0E000DE17D /* MakeBucketViewController.swift in Sources */,
 				8013889E1E209DD300AE6366 /* GroupViewController.swift in Sources */,
+				C97EBFD11E447AE2000DE17D /* GroupTableViewCell.swift in Sources */,
 				801388A81E20ACD800AE6366 /* BucketListViewController.swift in Sources */,
 				801388AD1E20B50F00AE6366 /* GroupCreateViewController.swift in Sources */,
 				8013888C1E1FF74600AE6366 /* AppDelegate.swift in Sources */,
@@ -376,8 +405,9 @@
 			baseConfigurationReference = 5D585BCD96DF7C6F550606C4 /* Pods-Among.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QWRWRCD882;
 				INFOPLIST_FILE = Among/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Among;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,8 +420,9 @@
 			baseConfigurationReference = 4452BA3DB11B03C2A686C28D /* Pods-Among.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QWRWRCD882;
 				INFOPLIST_FILE = Among/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Among;
 				PRODUCT_NAME = "$(TARGET_NAME)";

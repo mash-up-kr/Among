@@ -17,6 +17,25 @@ class BucketListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "add", style: .plain, target: self, action: #selector(addButtonTapped(sender: )))
+//        let btn1 = UIButton(type: .custom)
+//        btn1.setImage(UIImage(named: "imagename"), for: .normal)
+//        btn1.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+//        btn1.addTarget(self, action: #selector(addButtonTapped), for: .touchUpInside)
+//        let item1 = UIBarButtonItem(customView: btn1)
+// 
+//        self.navigationItem.setRightBarButtonItems([item1], animated: true)
+        let addButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.add, target: self, action: #selector(BucketListViewController.addButtonTapped))
+        navigationItem.rightBarButtonItem = addButton
+    }
+    
+    
+    func addButtonTapped() {
+        print("addButtonTapped")
+        let storyboard = UIStoryboard(name: "MakeBucketViewController", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "MakeBucketViewController")
+        self.present(controller, animated: true, completion: nil)
     }
     
 }
