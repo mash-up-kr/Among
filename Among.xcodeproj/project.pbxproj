@@ -110,13 +110,9 @@
 		8013889F1E209E2600AE6366 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				8013888F1E1FF74600AE6366 /* Main.storyboard */,
-				801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */,
-				801388B01E20BCF100AE6366 /* PagerViewController.storyboard */,
-				801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */,
 				801388941E1FF74600AE6366 /* LaunchScreen.storyboard */,
-				C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */,
-				C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */,
+				804140C71E44D4E100F19808 /* Group */,
+				804140C81E44D50000F19808 /* BucketList */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -125,16 +121,52 @@
 			isa = PBXGroup;
 			children = (
 				8013888B1E1FF74600AE6366 /* AppDelegate.swift */,
-				8013889D1E209DD300AE6366 /* GroupViewController.swift */,
-				801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */,
-				801388AE1E20BC3600AE6366 /* PagerViewController.swift */,
-				801388A71E20ACD800AE6366 /* BucketListViewController.swift */,
+				804140C51E44D4B600F19808 /* Group */,
+				804140C61E44D4C000F19808 /* BucketList */,
 				801388921E1FF74600AE6366 /* Assets.xcassets */,
 				801388971E1FF74600AE6366 /* Info.plist */,
-				C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */,
-				C97EBFD01E447AE2000DE17D /* GroupTableViewCell.swift */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		804140C51E44D4B600F19808 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				C97EBFD01E447AE2000DE17D /* GroupTableViewCell.swift */,
+				8013889D1E209DD300AE6366 /* GroupViewController.swift */,
+				801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
+		804140C61E44D4C000F19808 /* BucketList */ = {
+			isa = PBXGroup;
+			children = (
+				801388AE1E20BC3600AE6366 /* PagerViewController.swift */,
+				801388A71E20ACD800AE6366 /* BucketListViewController.swift */,
+				C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */,
+			);
+			name = BucketList;
+			sourceTree = "<group>";
+		};
+		804140C71E44D4E100F19808 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				8013888F1E1FF74600AE6366 /* Main.storyboard */,
+				801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */,
+			);
+			name = Group;
+			sourceTree = "<group>";
+		};
+		804140C81E44D50000F19808 /* BucketList */ = {
+			isa = PBXGroup;
+			children = (
+				801388B01E20BCF100AE6366 /* PagerViewController.storyboard */,
+				801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */,
+				C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */,
+				C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */,
+			);
+			name = BucketList;
 			sourceTree = "<group>";
 		};
 		C97EBFA11E44715B000DE17D /* Model */ = {
