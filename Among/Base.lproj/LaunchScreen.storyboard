@@ -21,16 +21,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-screen-Image" translatesAutoresizingMaskIntoConstraints="NO" id="9tK-qn-s8a">
-                                <rect key="frame" x="61" y="205" width="253" height="258"/>
-                                <color key="backgroundColor" red="0.16862745098039217" green="0.67843137254901964" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-screen-title" translatesAutoresizingMaskIntoConstraints="NO" id="9tK-qn-s8a">
+                                <rect key="frame" x="61" y="243" width="253" height="182"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="253" id="8Av-bB-wGz"/>
-                                    <constraint firstAttribute="height" constant="258" id="yiE-jG-cRk"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.16862745098039217" green="0.67843137254901964" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95686274509803926" green="0.96862745098039216" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="9tK-qn-s8a" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pAI-uD-iS6"/>
                             <constraint firstItem="9tK-qn-s8a" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qTI-8r-bVG"/>
@@ -43,6 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch-screen-Image" width="822" height="573"/>
+        <image name="launch-screen-title" width="478" height="182"/>
     </resources>
 </document>
