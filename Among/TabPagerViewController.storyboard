@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pager View Controller-->
+        <!--Tab Pager View Controller-->
         <scene sceneID="jJK-Gf-iwU">
             <objects>
-                <viewController storyboardIdentifier="PagerViewController" id="rgy-Ip-rB3" customClass="PagerViewController" customModule="Among" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TabPagerViewController" id="rgy-Ip-rB3" customClass="TabPagerViewController" customModule="Among" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LP5-hC-MWw"/>
                         <viewControllerLayoutGuide type="bottom" id="ePD-RT-7qj"/>
@@ -22,14 +23,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2P-1m-avN">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="65" width="375" height="602"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="U2P-1m-avN" firstAttribute="leading" secondItem="RLR-jN-vke" secondAttribute="leading" id="0Ie-9h-6hL"/>
-                            <constraint firstItem="U2P-1m-avN" firstAttribute="top" secondItem="LP5-hC-MWw" secondAttribute="bottom" id="CHg-0T-jpc"/>
+                            <constraint firstItem="U2P-1m-avN" firstAttribute="top" secondItem="LP5-hC-MWw" secondAttribute="bottom" constant="45" id="CHg-0T-jpc"/>
                             <constraint firstAttribute="trailing" secondItem="U2P-1m-avN" secondAttribute="trailing" id="adn-zc-Qeq"/>
                             <constraint firstItem="ePD-RT-7qj" firstAttribute="top" secondItem="U2P-1m-avN" secondAttribute="bottom" id="cf5-rH-HzF"/>
                         </constraints>
@@ -37,6 +38,13 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="8Ox-dU-A31">
                         <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="Ej0-6v-YZd"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="group_menu" style="plain" id="wc9-J2-a0Q">
+                                <inset key="imageInsets" minX="3" minY="3" maxX="3" maxY="3"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="kLH-QV-TxV"/>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="containerView" destination="U2P-1m-avN" id="dgd-lp-qYM"/>
@@ -47,4 +55,7 @@
             <point key="canvasLocation" x="1788" y="225"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="group_menu" width="30" height="30"/>
+    </resources>
 </document>

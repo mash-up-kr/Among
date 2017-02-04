@@ -20,16 +20,16 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" placeholder="SEARCH" translatesAutoresizingMaskIntoConstraints="NO" id="pb6-os-CgX">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <color key="barTintColor" red="0.34901960784313724" green="0.47450980392156861" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="search"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JM9-WV-JCN">
-                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="559"/>
                                 <color key="backgroundColor" red="0.94509803921568625" green="0.96078431372549022" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.94509803921568625" green="0.96078431372549022" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
@@ -117,7 +117,7 @@
                                             <outlet property="completionPercentView" destination="kqb-Tl-k3C" id="AEe-XT-bHG"/>
                                             <outlet property="entryCountLabel" destination="lNW-da-OOg" id="ATA-IG-L5M"/>
                                             <outlet property="groupNameLabel" destination="dxw-wW-OiG" id="uxl-RG-kD3"/>
-                                            <segue destination="6Ip-db-G78" kind="show" id="pWF-qw-f72"/>
+                                            <segue destination="IPr-e8-dNx" kind="show" id="FG4-52-1kI"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -172,19 +172,19 @@
             </objects>
             <point key="canvasLocation" x="2198" y="-235"/>
         </scene>
-        <!--BucketListViewController-->
-        <scene sceneID="cYf-kW-XHa">
+        <!--TabPagerViewController-->
+        <scene sceneID="tO5-0t-NYR">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="BucketListViewController" storyboardName="BucketListViewController" id="6Ip-db-G78" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wem-WU-sv1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="TabPagerViewController" storyboardName="TabPagerViewController" id="IPr-e8-dNx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yVJ-21-Ufj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2220" y="35"/>
+            <point key="canvasLocation" x="2102" y="75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dzM-fd-HAd">
             <objects>
                 <navigationController id="216-Un-MfF" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nvr-b8-bR4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="Nvr-b8-bR4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.52156862745098043" green="0.62352941176470589" blue="0.70588235294117652" alpha="1" colorSpace="calibratedRGB"/>

@@ -15,6 +15,7 @@ class GroupTableViewCell: UITableViewCell {
     @IBOutlet weak var entryCountLabel: UILabel!
     @IBOutlet weak var completionPercentImageView: UIImageView!
     @IBOutlet weak var completionPercentLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -1,19 +1,19 @@
 //
-//  BucketListViewController.swift
+//  CompleteBucketListViewController.swift
 //  Among
 //
-//  Created by snow on 2017. 1. 7..
+//  Created by snow on 2017. 2. 4..
 //  Copyright © 2017년 seolheelee. All rights reserved.
 //
 
 import UIKit
 import XLPagerTabStrip
 
-class BucketListViewController: UITableViewController {
+class CompleteBucketListViewController: UITableViewController {
     
     // MARK: - Properties
     
-    var itemInfo: IndicatorInfo = "어몽"
+    var itemInfo: IndicatorInfo = "완료어몽"
     
     // MARK: - Override
     
@@ -42,7 +42,7 @@ class BucketListViewController: UITableViewController {
 
 // MARK: - IndicatorInfoProvider
 
-extension BucketListViewController: IndicatorInfoProvider {
+extension CompleteBucketListViewController: IndicatorInfoProvider {
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
         return itemInfo
@@ -50,6 +50,6 @@ extension BucketListViewController: IndicatorInfoProvider {
     
 }
 
-class BucketCell: UITableViewCell {
+class CompleteBucketCell: UITableViewCell {
     
 }

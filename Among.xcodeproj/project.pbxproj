@@ -17,8 +17,10 @@
 		801388A81E20ACD800AE6366 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388A71E20ACD800AE6366 /* BucketListViewController.swift */; };
 		801388AB1E20B2BE00AE6366 /* GroupCreateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */; };
 		801388AD1E20B50F00AE6366 /* GroupCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */; };
-		801388AF1E20BC3600AE6366 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AE1E20BC3600AE6366 /* PagerViewController.swift */; };
-		801388B11E20BCF100AE6366 /* PagerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388B01E20BCF100AE6366 /* PagerViewController.storyboard */; };
+		801388AF1E20BC3600AE6366 /* TabPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801388AE1E20BC3600AE6366 /* TabPagerViewController.swift */; };
+		801388B11E20BCF100AE6366 /* TabPagerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801388B01E20BCF100AE6366 /* TabPagerViewController.storyboard */; };
+		804140CD1E44F13100F19808 /* CompleteBucketListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804140CC1E44F13100F19808 /* CompleteBucketListViewController.storyboard */; };
+		804140CF1E44F1A200F19808 /* CompleteBucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804140CE1E44F1A200F19808 /* CompleteBucketListViewController.swift */; };
 		C97EBF9C1E446397000DE17D /* BucketDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */; };
 		C97EBF9E1E446CFE000DE17D /* MakeBucketViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */; };
 		C97EBFA01E446D0E000DE17D /* MakeBucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */; };
@@ -41,8 +43,10 @@
 		801388A71E20ACD800AE6366 /* BucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		801388AA1E20B2BE00AE6366 /* GroupCreateViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupCreateViewController.storyboard; sourceTree = "<group>"; };
 		801388AC1E20B50F00AE6366 /* GroupCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCreateViewController.swift; sourceTree = "<group>"; };
-		801388AE1E20BC3600AE6366 /* PagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
-		801388B01E20BCF100AE6366 /* PagerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PagerViewController.storyboard; sourceTree = "<group>"; };
+		801388AE1E20BC3600AE6366 /* TabPagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPagerViewController.swift; sourceTree = "<group>"; };
+		801388B01E20BCF100AE6366 /* TabPagerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabPagerViewController.storyboard; sourceTree = "<group>"; };
+		804140CC1E44F13100F19808 /* CompleteBucketListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CompleteBucketListViewController.storyboard; sourceTree = "<group>"; };
+		804140CE1E44F1A200F19808 /* CompleteBucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteBucketListViewController.swift; sourceTree = "<group>"; };
 		C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BucketDetailViewController.storyboard; sourceTree = "<group>"; };
 		C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MakeBucketViewController.storyboard; sourceTree = "<group>"; };
 		C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeBucketViewController.swift; sourceTree = "<group>"; };
@@ -142,8 +146,9 @@
 		804140C61E44D4C000F19808 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
-				801388AE1E20BC3600AE6366 /* PagerViewController.swift */,
+				801388AE1E20BC3600AE6366 /* TabPagerViewController.swift */,
 				801388A71E20ACD800AE6366 /* BucketListViewController.swift */,
+				804140CE1E44F1A200F19808 /* CompleteBucketListViewController.swift */,
 				C97EBF9F1E446D0E000DE17D /* MakeBucketViewController.swift */,
 			);
 			name = BucketList;
@@ -161,8 +166,9 @@
 		804140C81E44D50000F19808 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
-				801388B01E20BCF100AE6366 /* PagerViewController.storyboard */,
+				801388B01E20BCF100AE6366 /* TabPagerViewController.storyboard */,
 				801388A31E20A8EC00AE6366 /* BucketListViewController.storyboard */,
+				804140CC1E44F13100F19808 /* CompleteBucketListViewController.storyboard */,
 				C97EBF9B1E446397000DE17D /* BucketDetailViewController.storyboard */,
 				C97EBF9D1E446CFE000DE17D /* MakeBucketViewController.storyboard */,
 			);
@@ -212,7 +218,6 @@
 				TargetAttributes = {
 					801388871E1FF74600AE6366 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = QWRWRCD882;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -241,9 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				801388961E1FF74600AE6366 /* LaunchScreen.storyboard in Resources */,
-				801388B11E20BCF100AE6366 /* PagerViewController.storyboard in Resources */,
+				801388B11E20BCF100AE6366 /* TabPagerViewController.storyboard in Resources */,
 				801388931E1FF74600AE6366 /* Assets.xcassets in Resources */,
 				801388911E1FF74600AE6366 /* Main.storyboard in Resources */,
+				804140CD1E44F13100F19808 /* CompleteBucketListViewController.storyboard in Resources */,
 				801388AB1E20B2BE00AE6366 /* GroupCreateViewController.storyboard in Resources */,
 				C97EBF9E1E446CFE000DE17D /* MakeBucketViewController.storyboard in Resources */,
 				801388A41E20A8EC00AE6366 /* BucketListViewController.storyboard in Resources */,
@@ -311,9 +317,10 @@
 				8013889E1E209DD300AE6366 /* GroupViewController.swift in Sources */,
 				C97EBFD11E447AE2000DE17D /* GroupTableViewCell.swift in Sources */,
 				801388A81E20ACD800AE6366 /* BucketListViewController.swift in Sources */,
+				804140CF1E44F1A200F19808 /* CompleteBucketListViewController.swift in Sources */,
 				801388AD1E20B50F00AE6366 /* GroupCreateViewController.swift in Sources */,
 				8013888C1E1FF74600AE6366 /* AppDelegate.swift in Sources */,
-				801388AF1E20BC3600AE6366 /* PagerViewController.swift in Sources */,
+				801388AF1E20BC3600AE6366 /* TabPagerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +444,7 @@
 			baseConfigurationReference = 5D585BCD96DF7C6F550606C4 /* Pods-Among.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QWRWRCD882;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Among/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -452,7 +459,7 @@
 			baseConfigurationReference = 4452BA3DB11B03C2A686C28D /* Pods-Among.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QWRWRCD882;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Among/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
