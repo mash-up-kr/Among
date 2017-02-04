@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,6 +39,12 @@
                     <navigationItem key="navigationItem" id="8Ox-dU-A31">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title=" " id="Ej0-6v-YZd"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="group_menu" style="plain" id="wc9-J2-a0Q">
+                                <inset key="imageInsets" minX="3" minY="3" maxX="3" maxY="3"/>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="kLH-QV-TxV"/>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="containerView" destination="U2P-1m-avN" id="dgd-lp-qYM"/>
@@ -48,4 +55,7 @@
             <point key="canvasLocation" x="1788" y="225"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="group_menu" width="30" height="30"/>
+    </resources>
 </document>
